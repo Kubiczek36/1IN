@@ -3,7 +3,9 @@
 clear;
 clc;
 
-x = [0:pi/8:2*pi];
+x = [0:pi/20:2*pi];
 y = sin(x);
-plot(x,y,'*');
+yCos = cos(x);
+plot(x,y,  'g *' , x, yCos, 'o')
 grid on;
+hold on;
