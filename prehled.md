@@ -4,7 +4,8 @@
 |---|---|
 |`clc`|vymaže všechen text z ppříkazového okna|
 |`clear`| vymaže paměť proměnných|
-|``| |
+|`ans`| výsledek posledního výpočtu |
+
 
 ## Aritmetické operátory 
 | | |
@@ -28,6 +29,16 @@
 
 
 ## Matice a vektory
+
+### Vektor
+| | |
+|---|---|
+|`v(:)`|všechny prvky `v`|
+|`v(i,j)` | prvky od `i`-tého po `j`-tý |
+|`v(j:end)` | prvky od `j`-tého do konce |
+|`M(j,:)` | všechny prvky na řádku `j` |
+|`M(:,i)`| všechny prvky ve sloupci `i`|
+
 
 
 ### Vytvoření matice nebo vektoru (pole)
