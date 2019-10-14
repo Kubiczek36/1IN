@@ -33,6 +33,10 @@
 ### Vektor
 | | |
 |---|---|
+|`j:k`|řádkový vektor od j po k  `[j, j+1, ..., k]`|
+
+| | |
+|---|---|
 |`v(:)`|všechny prvky `v`|
 |`v(i,j)` | prvky od `i`-tého po `j`-tý |
 |`v(j:end)` | prvky od `j`-tého do konce |
