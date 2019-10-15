@@ -34,6 +34,14 @@
 | | |
 |---|---|
 |`j:k`|řádkový vektor od j po k  `[j, j+1, ..., k]`|
+|`x=[1, 2, 3]`| zadaný řádkový vektor (1,2,3)|
+|`x=[1; 2; 3]`| zadaný sloupcový vektor (1,2,3)|
+|`x=[1,2; 3, 4]`| zadaná matice $\left(\begin{array}{cc} 1&2\\3&4 \end{array}\right)$|
+
+|Maticové operace | |
+|---|---|
+|`x +/- y`| sčítání/odčítání matic|
+|`x.*(/, ^)y`| násobení (dělení, umocňování) po prvcích|
 
 | | |
 |---|---|
