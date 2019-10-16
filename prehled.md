@@ -123,3 +123,10 @@ for i = 1:5
     disp('etwas')
 end
 ```
+## Další příkazy
+
+| | |
+|---|---|
+|`menu(název, prvni polozka, druha polozka, ...)`| vyskoci okno s nabidkou|
+|`input(text po vstupu)`| vstup |
+| | |
